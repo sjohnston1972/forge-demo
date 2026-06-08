@@ -1,3 +1,4 @@
+// build probe check
 export default {
   async fetch(request, env, ctx) {
     return new Response(HTML, {
